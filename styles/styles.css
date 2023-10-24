@@ -1,0 +1,57 @@
+header, footer, .grid {
+  max-width: 840px;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #000080; /* Update the color to Navy Blue */
+}
+
+h1 {
+  color: steelblue;
+  border-bottom: 1px solid steelblue;
+}
+
+img {
+  width: 150px;
+  height: auto;
+  border: 1px solid steelblue;
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
+}
+
+p {
+  padding: 0;
+}
+
+/* Class Selectors */
+.box {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Grid layout for main and aside elements */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+aside {
+  grid-row: span 2;
+}
+
+  
+
+

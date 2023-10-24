@@ -1,0 +1,66 @@
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img {
+    display: inline-block;
+}
+
+footer {
+    text-align: right;
+}
+
+.call-to-action a.btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style your hero section */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* Style your newsletter section */
+.newsletter {
+    padding: 20px;
+}
+
+/* Style your call-to-action section */
+.call-to-action {
+    padding: 20px;
+}
+
+/* Style your grid content section */
+.grid-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.content-piece {
+    /* Your styles here */
+}
+

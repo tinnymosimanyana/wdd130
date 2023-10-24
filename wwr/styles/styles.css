@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 1rem;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    margin-right: 1rem;
+}
+
+.city-image,
+.profile-image {
+    max-width: 50px;
+    height: auto;
+}
+
+aside {
+    position: static;
+}
+
+.state-country-heading {
+    position: static;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0.5rem;
+}
+
+
+
+
