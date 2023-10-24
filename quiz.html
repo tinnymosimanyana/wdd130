@@ -1,33 +1,39 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML & CSS Quiz</title>
-    <link rel="stylesheet" href="styles/quiz.css">
+    <meta name="description" content="Test your knowledge on HTML and CSS with this interactive quiz. Answer questions and improve your web development skills.">
+    <meta name="author" content="Tinny Mosimanyana">
+    <link rel="stylesheet" type="text/css" href="styles/quiz.css">
+    <title>HTML and CSS Quiz</title>
 </head>
 <body>
-    <form id="quizForm">
-        <h1>HTML & CSS Quiz</h1>
-        
+    <h1>HTML and CSS Quiz</h1>
+    <form action="submit_quiz.php" method="post">
+        <!-- Question 1 -->
         <label for="q1">1. What does HTML stand for?</label>
-        <input type="text" id="q1" name="q1">
-        
-        <label for="q2">2. What is the purpose of CSS?</label>
-        <textarea id="q2" name="q2"></textarea>
-        
-        <label for="q3">3. Choose the correct HTML tag for the largest heading:</label>
-        <select id="q3" name="q3">
-            <option value="" selected disabled>Choose one...</option>
-            <option value="h1">&lt;h1&gt;</option>
-            <option value="h2">&lt;h2&gt;</option>
-            <option value="h3">&lt;h3&gt;</option>
+        <input type="text" id="q1" name="q1" required>
+
+        <!-- Question 2 -->
+        <label for="q2">2. What is the purpose of CSS in web development?</label>
+        <textarea id="q2" name="q2" rows="4" required></textarea>
+
+        <!-- Question 3 -->
+        <label for="q3">3. Which tag is used to create an ordered list in HTML?</label>
+        <select id="q3" name="q3" required>
+            <option value="" selected disabled>Choose One ...</option>
+            <option value="ol">ol</option>
+            <option value="ul">ul</option>
+            <option value="li">li</option>
         </select>
-        
-        <label for="q4">4. How many hex values are used to represent colors in CSS?</label>
-        <input type="number" id="q4" name="q4">
-        
-        <input type="submit" value="Submit Quiz">
+
+        <!-- Question 4 -->
+        <label for="q4">4. What is the result of 2 + 2 in integer?</label>
+        <input type="number" id="q4" name="q4" required>
+
+        <!-- Submit button -->
+        <button type="submit">Submit Quiz</button>
     </form>
 </body>
 </html>
